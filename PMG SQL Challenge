@@ -2,6 +2,8 @@
 -- It utilizes a relational database containing tables for tracking daily advertising spend, performance metrics, website revenue, and campaign attributes. 
 -- The goal is to extract valuable insights, assess campaign efficiency, and make data-driven decisions to optimize marketing strategies and maximize revenue.
 
+
+-- First, I create a database. Next, I create the following tables:
 create table marketing_data (
  date datetime,
  campaign_id varchar(50),
@@ -26,9 +28,9 @@ create table campaign_info (
  last_updated_date datetime
 );
   
---Then I inserted the campaign_info.csv into the table campaign_info
---Then I inserted the marketing_performance.csv into the table marketing_data
---Then I inserted the website_revenue.csv into the table website_revenue
+--Then I inserted the data from campaign_info.csv into the table campaign_info
+--Then I inserted the data from marketing_performance.csv into the table marketing_data
+--Then I inserted the data from website_revenue.csv into the table website_revenue
 
 -- Display the tables of campaign_info, marketing_data, and website_revenue
 
